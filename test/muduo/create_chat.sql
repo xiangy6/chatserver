@@ -29,7 +29,7 @@ CREATE TABLE GroupUser (
 );
 
 CREATE TABLE OfflineMessage (
-    userid INT PRIMARY KEY,
+    userid INT NOT NULL,
     message VARCHAR(500) NOT NULL,
     FOREIGN KEY (userid) REFERENCES User(id)
 );

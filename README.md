@@ -85,5 +85,5 @@ CREATE TABLE OfflineMessage (
 | json       | 3.7.3            |
 | redis      | 7.0.2            |
 | muduo      | *Copyright* 2010 |
-
 | hiredis    | *Copyright* 2015 |
+

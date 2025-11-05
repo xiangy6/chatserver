@@ -5,11 +5,11 @@
 
 **chatserver:**
 
-![image-20250313110101985](C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20250313110101985.png)
+![image-20250313110101985](https://github.com/xiangy6/chatserver/blob/main/img/chatserver.png)
 
 **chatclient:**
 
-![image-20250313110441368](C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20250313110441368.png)
+![image-20250313110441368](https://github.com/xiangy6/chatserver/blob/main/img/chatclient.png)
 
 ### 1.代码文件描述
 
@@ -28,7 +28,7 @@
 
 一共有User、Friend、AllGroup、GroupUser、OfflineMessage五张表。
 
-![image-20250313104338944](C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20250313104338944.png)
+![image-20250313104338944](https://github.com/xiangy6/chatserver/blob/main/img/tables.png)
 
 ```sql
 REATE TABLE User (
@@ -76,7 +76,7 @@ CREATE TABLE OfflineMessage (
 
 两个服务分别运行在6000和6001端口，权重配置为1，即采用轮询方式（轮流提供服务）。
 
-![image-20250313103530565](C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20250313103530565.png)
+![image-20250313103530565](https://github.com/xiangy6/chatserver/blob/main/img/nginx.png)
 
 | 第三方软件 | 版本             |
 | ---------- | ---------------- |
@@ -85,4 +85,5 @@ CREATE TABLE OfflineMessage (
 | json       | 3.7.3            |
 | redis      | 7.0.2            |
 | muduo      | *Copyright* 2010 |
+
 | hiredis    | *Copyright* 2015 |
